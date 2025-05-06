@@ -1,0 +1,55 @@
+.header{
+    background-color: brown;
+    width: 350px;
+    height: 200px;
+    background-image: url(banner.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header h1{
+    color: cyan;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.nav{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav ul{
+    list-style-type:none ;
+    display: flex;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+.nav ul li{
+    width:100px;
+    border: 1px solid;
+    border-color: antiquewhite;
+    padding:10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav ul li:hover{
+    background-color: brown;
+    border-color: brown;
+    
+}
+.nav ul li a:hover{
+    color:darkred;
+
+}
+#mission,#team{
+    color: brown;
+}

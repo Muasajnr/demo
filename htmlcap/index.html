@@ -4,6 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Multi-page Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        h1{
+            color:chocolate;
+            font-size: 25px;
+        }
+
+        li{
+            color: aqua;
+            font-size: 20px;
+            font-family: Verdana;
+
+        }
+        a{
+            color:red;
+        }
+
+        h2{
+            color:darkgreen;
+        }
+        #first-h{
+            color: cyan;
+        }
+        #second-h{
+            color:deeppink;
+        }
+
+        .nav{
+            background-color: beige;
+        }
+
+    </style>
 </head>
 <body>
     <!-- header -->
@@ -11,7 +44,7 @@
         <h1>Welcome to our Website</h1>
     </heder>
     <!-- Navigation -->
-    <nav>
+    <nav class="nav">
         <ul>
             <!-- link to home page -->
             <li><a href="index.html">Home</a></li>
@@ -24,8 +57,10 @@
     <!-- main section -->
      <main>
         <section>
+            <h2 id="first-h">Latest News</h2>
+            <h2 id="second-h">Latest News</h2>
             <h2>Latest News</h2>
-            <p>Here's is the latest update on our website</p>
+            <p style="color:blue;font-size:28px;font-weight: bold;">Here's is the latest update on our website</p>
         </section>
 
         <article>
