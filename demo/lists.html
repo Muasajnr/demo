@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lists</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <style>
+        h1{
+           color:brown; 
+        }
+
+        #ordered-list{
+            color:blueviolet;
+        }
+        .description-list{
+            background-color: brown;
+        }
+    </style> -->
 </head>
 <body>
     <!-- un-ordred lists -->
-     <h1>Un Ordered List</h1>
+     <!-- <h1 style="color:red; font-family: Verdana; font-size: 120px;">Un Ordered List</h1> -->
      <ul>
         <li>Arsenal</li>
         <li>Mancity</li>
@@ -15,7 +28,7 @@
      </ul>
 
      <!-- ordered list -->
-      <h1>Ordered list</h1>
+      <h1 id="ordered-list">Ordered list</h1>
       <ol type="I">
         <li>Arsenal</li>
         <li>Mancity</li>
@@ -24,7 +37,7 @@
 
       <!-- Description list -->
        <h1>Description List</h1>
-       <dl>
+       <dl class="description-list">
         <dt>Software Dev</dt>
         <dd>Intro to Software Dev</dd>
         <dd>Prompt Engineering</dd>
