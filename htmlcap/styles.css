@@ -1,21 +1,30 @@
 .header{
-    background-color: brown;
+    background-color: ;
     width: 350px;
     height: 200px;
-    background-image: url(banner.jfif);
+    background-image: url(bnner.jfif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .header h1{
-    color: cyan;
+    color: #ff5733;
     text-align: center;
     padding-top: 80px;
+    font-style: oblique;
+    text-transform: lowercase;
+    letter-spacing: 4px;
+    line-height: normal;
+    font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 
 }
 
 .nav{
-    background-color: blue;
+    /* lineear gradient
+    background:linear-gradient(to left,#1700ff,#0067ff,#008dff,#00a6ff,#00bae6,#00cc9a); */
+    background: radial-gradient(circle,#0000FF,#00D4FF);
     padding: 10px;
     margin: 10px;
 }
@@ -23,6 +32,7 @@
 .nav ul{
     list-style-type:none ;
     display: flex;
+    
 }
 
 .nav ul li a{
