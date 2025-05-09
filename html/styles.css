@@ -1,0 +1,67 @@
+/* borders */
+.border-box{
+    border:2px solid blue;
+    padding:20px;
+    width:200px;
+    border-radius:30px;
+    
+}
+
+/* Box shadow */
+.shadow-box{
+    width: 200px;
+    padding:20px;
+    border:1px solid #02ff8515;
+    box-shadow:5px 5px 10px #ff0000fc;
+    background-color: #ff8533;
+}
+
+
+
+/* Text shadow */
+#text-shadow{
+    font-size: 24px;
+    text-shadow: 2px 2px 5px #888;
+}
+
+.shadow-box h1{
+    text-shadow: 3px 3px 10px #ff0000fc;
+}
+
+
+form{
+    background-color: #ff8533;
+    padding: 10px;
+    border-radius: 8px;
+    width:180px;
+}
+
+form input,textarea{
+    border:none;
+    padding:3px;
+    border-radius: 3px;
+
+}
+
+form #btn{
+    background-color: #000;
+    color:#fff;
+
+}
+
+form #btn:hover{
+    background-color: #fff;
+    color: #ff8533;
+    font-weight: bold;
+    transition: 
+    background-color 0.8s cubic-bezier(0.68,-0.55,0.27,1.25);
+}
+
+/* TRANSITION TYPES
+1. ease (default)
+2. linear
+3. ease-in
+4. ease-out
+5. ease-in-out
+6. Cubic-bezier (custom easing)
+*/
