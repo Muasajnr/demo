@@ -65,3 +65,34 @@ form #btn:hover{
 5. ease-in-out
 6. Cubic-bezier (custom easing)
 */
+
+/* animation */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation:slideAndColor 3s ease-in-out infinite alternate;
+    /* animation-name:slideAndColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out; */
+
+
+}
+
+@keyframes slideAndColor{
+    0%{
+        transform:translateX(0);
+        background-color: red;
+    }
+
+    50%{
+        transform: translateX(150px);
+        background-color: yellow;
+    }
+    100%{
+        transform: translateX(300px);
+        background-color: green;
+    }
+}
