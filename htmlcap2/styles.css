@@ -46,3 +46,22 @@ h2,#goals,th{
 .guidelines{
     background-color: aqua;
 }
+
+
+/* box modelling */
+
+.box{
+    background-color: red;
+    padding:30px;
+    margin:30px;
+}
+
+
+.main{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    gap:5px;
+}
+
